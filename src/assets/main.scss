@@ -1,0 +1,56 @@
+:root {
+  --primary-color: #409EFF;
+  --success-color: #67C23A;
+  --warning-color: #E6A23C;
+  --danger-color: #F56C6C;
+  --info-color: #909399;
+  --background-color: #F5F7FA;
+  --text-color: #303133;
+  --text-color-secondary: #909399;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.el-button--primary {
+  --el-button-bg-color: var(--primary-color);
+  --el-button-border-color: var(--primary-color);
+  --el-button-hover-bg-color: #66B1FF;
+  --el-button-hover-border-color: #66B1FF;
+}
+
+.el-table {
+  --el-table-border-color: #EBEEF5;
+  --el-table-header-bg-color: #F5F7FA;
+}
+
+.el-form-item__label {
+  font-weight: 600;
+}
+
+.el-input-number {
+  width: 100%;
+}
+
+.el-progress-bar__inner {
+  transition: width 0.6s ease;
+}
+
+.el-descriptions {
+  margin-bottom: 20px;
+}
+
+.el-tabs__nav-wrap::after {
+  height: 1px;
+}
+
+@media (max-width: 768px) {
+  .el-form-item {
+    margin-bottom: 18px;
+  }
+}
